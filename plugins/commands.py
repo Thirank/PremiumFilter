@@ -250,7 +250,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('♂️ 𝐔𝐏𝐃𝐀𝐓𝐄', url='https://t.me/Mc_Films_Update') ],[ InlineKeyboardButton('♂️ 𝐔𝐏𝐃𝐀𝐓𝐄', url='https://t.me/Mc_Films_Update') ], [ InlineKeyboardButton('♂️ 𝐔𝐏𝐃𝐀𝐓𝐄', url='https://t.me/Mc_Films_Update') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('♂️Uᴘᴅᴀᴛᴇ', url='https://t.me/Mc_Films_Update'),InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Mc_Group_Films') ], [ InlineKeyboardButton('👑Bᴏᴛ Oᴡɴᴇʀ', url='https://t.me/Thiraniitsme') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
