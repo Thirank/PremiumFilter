@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24482882'))
 API_HASH = environ.get('API_HASH', '27bd653cd164958dbfe7c942546e018d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6253891243:AAFIsSxlVWAQDURMBC25hsEfRDWFPh-q2co')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5940017882:AAFhy-cxh0X8-8smDfYIVvH3r2TQ_FTlI2k')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -65,7 +65,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/mightylink/15')
 
-AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 100))
+AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 30))
 
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
 
