@@ -468,7 +468,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔭 🅢︎ᴛᴀᴛ🅢︎ 📊', callback_data='stats'),
             InlineKeyboardButton('📞🅒︎ᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='source')
+            InlineKeyboardButton('😅 🅢︎ᴏᴜʀᴄᴇ 🅒︎ᴏᴅᴇ 😊', callback_data='source')
         ], [
             InlineKeyboardButton('😜 🅗︎ᴏᴡ 🅣︎ᴏ 🅓︎ᴏᴡɴʟᴏᴀᴅ 🅕︎ɪʟᴇ🅢︎ 🅕︎ʀᴏᴍ 🅜︎ᴇ 😜', callback_data='info')
         ], [
@@ -492,15 +492,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🤙 Sʜᴀʀᴇ Tᴇxᴛ 🤙', callback_data='share')
         ],[
-            InlineKeyboardButton('🧑‍💻 Cᴀʀʙᴏɴ Gᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon')
+            InlineKeyboardButton('🧑‍💻 🅲︎ᴀʀʙᴏɴ 🅶︎ᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon')
         ],[ 
-            InlineKeyboardButton('🙌 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
+            InlineKeyboardButton('🙌 🅵︎ᴏɴᴛ 🅶︎ᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
         ],[  
-            InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
+            InlineKeyboardButton("▶️ 🆈︎ᴛ 🆅︎ɪᴅᴇᴏ 🅳︎ᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
         ],[
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
+            InlineKeyboardButton('🔭 🆂︎ᴛᴀᴛ🆂︎ 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('😊 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☺', url='https://Github.com/TamilanBotsZ/PremiumFilter')
+            InlineKeyboardButton('😊 🆂︎ᴏᴜʀᴄᴇ 🅲︎ᴏᴅᴇ ☺', url='https://Github.com/TamilanBotsZ/PremiumFilter')
         ],[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]       
