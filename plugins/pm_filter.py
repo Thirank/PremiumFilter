@@ -133,7 +133,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url='https://t.me/Sharath_Links/13'),
+        InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url='https://t.me/mightylink'),
 
 
 
@@ -792,7 +792,10 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}"),
+        InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url='https://t.me/mightylink')
+
+        
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
