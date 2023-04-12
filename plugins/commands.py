@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Mc_Films_Update')
+                InlineKeyboardButton('🤖 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 🤖', url='https://t.me/Mc_Films_Update')
             ],
             [
-                InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('ℹ️ 𝑯𝒆𝒍𝒑 ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -51,7 +51,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💌 𝗔ʙᴏᴜᴛ 𝗔ɴᴅ 𝗜ɴғᴏ 💌', callback_data= 'about')
             ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('❌ 𝗖ʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -100,7 +100,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💌 𝗔ʙᴏᴜᴛ 𝗔ɴᴅ 𝗜ɴғᴏ 💌', callback_data= 'about')
             ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('❌ 𝗖ʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
