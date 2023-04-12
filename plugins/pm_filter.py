@@ -462,11 +462,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Mc_Group_Update'),
-            InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
+            InlineKeyboardButton('🤖 🅤︎ᴩᴅᴀᴛᴇ🅢︎ 😜', url='https://t.me/Mc_Group_Update'),
+            InlineKeyboardButton('♥️ 🅢︎ʜᴀʀᴇ 🅜︎ᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+            InlineKeyboardButton('🔭 🅢︎ᴛᴀᴛ🅢︎ 📊', callback_data='stats'),
+            InlineKeyboardButton('📞🅒︎ᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
             InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='source')
         ], [
