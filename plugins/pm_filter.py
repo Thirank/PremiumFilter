@@ -486,11 +486,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
        )
     elif query.data == "mods":
         buttons = [[
-            InlineKeyboardButton('🖼️ Tᴇʟᴇɢʀᴀᴘʜ 🔭', callback_data='tele')
+            InlineKeyboardButton('🖼️ 🆃︎ᴇʟᴇɢʀᴀᴘʜ 🔭', callback_data='tele')
         ],[
-            InlineKeyboardButton('🗿 Cʜᴇᴄᴋ Pɪɴɢ ✏️', callback_data='pong')
+            InlineKeyboardButton('🗿 🅲︎ʜᴇᴄᴋ 🅿︎ɪɴɢ ✏️', callback_data='pong')
         ],[
-            InlineKeyboardButton('🤙 Sʜᴀʀᴇ Tᴇxᴛ 🤙', callback_data='share')
+            InlineKeyboardButton('🤙 🆂︎ʜᴀʀᴇ 🆃︎ᴇ🆇︎ᴛ 🤙', callback_data='share')
         ],[
             InlineKeyboardButton('🧑‍💻 🅲︎ᴀʀʙᴏɴ 🅶︎ᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon')
         ],[ 
