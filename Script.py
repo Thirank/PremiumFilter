@@ -28,12 +28,17 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
     ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Cs_Tomjerry_bot>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</a>
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Thiraniitsme>𝐓𝐡𝐢𝐫𝐚𝐧</a>
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : 𝐑𝐞𝐧𝐝𝐞𝐫
-📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/Mc_Group_Films>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://t.me/Thiraniitsme>REPO</a></b>"""
+✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/Thiraniitsme>Tʜɪʀᴀɴ</a>
+
+✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
+
+✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
+
+✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
+
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
+
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ 𝐓𝐡𝐢𝐫𝐚𝐧
 
