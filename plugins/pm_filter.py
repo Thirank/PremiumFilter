@@ -451,7 +451,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💥 𝗠ᴏᴠɪᴇ 𝗨ᴘᴅᴀᴛᴇ𝘀 💥', url='https://t.me/Mc_Group_Update'),
             InlineKeyboardButton('🔎 𝗦ᴇᴀʀᴄʜ 𝗚ʀᴏᴜᴘ 🔍', url='https://t.me/Mc_Group_Films')
             ],[
-            InlineKeyboardButton('😅 𝗦ᴏᴜʀᴄᴇ 𝗖ᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner_info')
             ],[
             InlineKeyboardButton('💌 𝗔ʙᴏᴜᴛ 𝗔ɴᴅ 𝗜ɴғᴏ 💌', callback_data= 'about')
             ],[
@@ -471,7 +471,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔭 🅢︎ᴛᴀᴛ🅢︎ 📊', callback_data='stats'),
             InlineKeyboardButton('📞🅒︎ᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
-            InlineKeyboardButton('😅 🅢︎ᴏᴜʀᴄᴇ 🅒︎ᴏᴅᴇ 😊', callback_data='source')
+            InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info')
         ], [
             InlineKeyboardButton('😜 🅗︎ᴏᴡ 🅣︎ᴏ 🅓︎ᴏᴡɴʟᴏᴀᴅ 🅕︎ɪʟᴇ🅢︎ 🅕︎ʀᴏᴍ 🅜︎ᴇ 😜', callback_data='info')
         ], [
