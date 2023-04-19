@@ -40,17 +40,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
 
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
 
-    SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ 𝐓𝐡𝐢𝐫𝐚𝐧
-
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/Thiraniitsme>𝐓𝐡𝐢𝐫𝐚𝐧</a>
-
-- & Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
-
-    SOURCE_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ 𝐓𝐡𝐢𝐫𝐚𝐧</b>
-
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/Thiraniitsme>𝐓𝐡𝐢𝐫𝐚𝐧</a></b>
-
-- Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
+    
     
     OWNER_INFO = """
 
