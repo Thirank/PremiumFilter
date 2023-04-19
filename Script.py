@@ -27,8 +27,9 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Cs_Tomjerry_bot>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</a>
-✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/Thiraniitsme>Tʜɪʀᴀɴ</a>
+    ABOUT_TXT = """
+
+<b>✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/Thiraniitsme>Tʜɪʀᴀɴ</a>
 
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 
