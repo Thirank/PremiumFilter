@@ -134,7 +134,7 @@ async def next_page(bot, query):
         )
     btn.insert(0, [
 
-        InlineKeyboardButton("🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋", url=https://t.me/mightylinks")
+        InlineKeyboardButton("🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋", url="https://t.me/mightylinks")
                           
                       
 
