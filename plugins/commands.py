@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 𝗠ᴏᴠɪᴇ 𝗨ᴘᴅᴀᴛᴇ𝘀 💥', url='https://t.me/Mc_Films_Update'),
             InlineKeyboardButton('🔎 𝗦ᴇᴀʀᴄʜ 𝗚ʀᴏᴜᴘ 🔍', url='https://t.me/Mc_Group_Films')
             ],[
-            InlineKeyboardButton('😅 𝗦ᴏᴜʀᴄᴇ 𝗖ᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner_info')
             ],[
             InlineKeyboardButton('💌 𝗔ʙᴏᴜᴛ 𝗔ɴᴅ 𝗜ɴғᴏ 💌', callback_data= 'about')
             ],[
@@ -96,7 +96,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 𝗠ᴏᴠɪᴇ 𝗨ᴘᴅᴀᴛᴇ𝘀 💥', url='https://t.me/Mc_Films_Update'),
             InlineKeyboardButton('🔎 𝗦ᴇᴀʀᴄʜ 𝗚ʀᴏᴜᴘ 🔍', url='https://t.me/Mc_Group_Films')
             ],[
-            InlineKeyboardButton('😅 𝗦ᴏᴜʀᴄᴇ 𝗖ᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data='owner_info')
             ],[
             InlineKeyboardButton('💌 𝗔ʙᴏᴜᴛ 𝗔ɴᴅ 𝗜ɴғᴏ 💌', callback_data= 'about')
             ],[
