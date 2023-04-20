@@ -134,15 +134,18 @@ async def next_page(bot, query):
         )
     btn.insert(0, [
 
-        InlineKeyboardButton("🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋", url="https://t.me/mightylinks")
-                          
+        InlineKeyboardButton("⚡ Cʜᴀɴɴᴇʟ ⚡", url="https://t.me/Mc_Group_Channel"),
+                   
+        InlineKeyboardButton("⚡ Sᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/Moc_hd"),
+        
+        InlineKeyboardButton("🔗Tɴʟɪɴᴋ🔗", url="https://t.me/Mc_Group_Films"),                    
                       
 
     ])
 
     btn.insert(0, [
 
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("🔋Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ🔋", url="https://t.me/mightylink")
 
     ])
     try:
@@ -798,10 +801,24 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton("🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋", url="https://t.me/mightylinks")
+        InlineKeyboardButton("⚡ Cʜᴀɴɴᴇʟ ⚡", url="https://t.me/Mc_Group_Channel"),
+
+                   
+
+        InlineKeyboardButton("⚡ Sᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/Moc_hd"),
+
+        
+
+        InlineKeyboardButton("🔗Tɴʟɪɴᴋ🔗", url="https://t.me/Mc_Group_Films"),                    
+
+                      
+
     ])
+
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+
+        InlineKeyboardButton("🔋Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ🔋", url="https://t.me/mightylink")
+
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
