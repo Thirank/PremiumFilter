@@ -459,7 +459,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 𝗠ᴏᴠɪᴇ 𝗨ᴘᴅᴀᴛᴇ𝘀 💥', url='https://t.me/Mc_Group_Update'),
+            InlineKeyboardButton('💥 𝗠ᴏᴠɪᴇ 𝗨ᴘᴅᴀᴛᴇ𝘀 💥', url='https://t.me/Mc_Films_Update'),
             InlineKeyboardButton('🔎 𝗦ᴇᴀʀᴄʜ 𝗚ʀᴏᴜᴘ 🔍', url='https://t.me/Mc_Group_Films')
             ],[
             InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data='source')
@@ -476,7 +476,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 🅤︎ᴩᴅᴀᴛᴇ🅢︎ 😜', url='https://t.me/Mc_Group_Update'),
+            InlineKeyboardButton('🤖 🅤︎ᴩᴅᴀᴛᴇ🅢︎ 😜', url='https://t.me/Mc_Films_Update'),
             InlineKeyboardButton('♥️ 🅢︎ʜᴀʀᴇ 🅜︎ᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
             InlineKeyboardButton('🔭 🅢︎ᴛᴀᴛ🅢︎ 📊', callback_data='stats'),
@@ -799,6 +799,7 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
+            [InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}")]
             [InlineKeyboardButton(text=f"🗓 1/{math.ceil(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{offset}")]
         )
