@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/f7c7e80251a38d2588621.jpg', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\nPᴏᴡᴇʀᴇᴅ ʙʏ @Mᴄ_Gʀᴏᴜᴘғɪʟᴍs_𝟸</b>", 
+                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/416091daec487eb67e1e3.jpg', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\nPᴏᴡᴇʀᴇᴅ ʙʏ @Mᴄ_Gʀᴏᴜᴘғɪʟᴍs_𝟸</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -514,7 +514,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🔭 🆂︎ᴛᴀᴛ🆂︎ 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('😊 🆂︎ᴏᴜʀᴄᴇ 🅲︎ᴏᴅᴇ ☺', url='https://Github.com/TamilanBotsZ/PremiumFilter')
+            InlineKeyboardButton('😊 🆂︎ᴏᴜʀᴄᴇ 🅲︎ᴏᴅᴇ ☺', url='Contact Admin')
         ],[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]       
@@ -622,7 +622,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/mightylink/6')
+            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/mightylink/20')
         ], [
             InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
         ], [
